@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: "Google Sans Flex", sans-serif;
+    background-color: #f0f0fa;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0rem;
+} 
+
+.logo {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 0.125rem;
+    color: rgb(235, 16, 16);
+}
+
+#main-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.75rem;
+    font-size: 1.31205rem;
+}
+
+#main-menu a {
+    color: #333;
+}

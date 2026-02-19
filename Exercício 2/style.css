@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    word-wrap: wrap;
+}
+
+@font-face {
+    font-family: inter;
+    src: url(fonts/Inter/static/Inter_18pt-Medium.ttf);
+}
+
+@font-face {
+    font-family: lexend_deca;
+    src: url(fonts/Lexend_Deca/static/LexendDeca-Bold.ttf);
+}
+
+body{
+    background-color: #090b1a;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    background-color: #1c1a38;
+    height: 60vh;
+    width: 150vh;
+    border-radius: 12px;
+    display: flex;
+    justify-content: end;
+}
+
+#overlay{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 75vh;
+    height: 60vh;
+    background: rgb(170, 92, 219);
+    mix-blend-mode: multiply;
+    border-radius: 0px 12px 12px 0px;
+}
+
+#image{
+    width: 75vh;
+    height: 60vh;
+    position: relative;
+}
+
+#principalImage{
+    width: 75vh;
+    height: 60vh;
+    border-radius: 0px 12px 12px 0px;
+}
+
+#title{
+    font-family: "lexend_deca";
+    color: #ffffff;
+    font-size: 25px;
+}
+
+span{
+    color: rgb(170, 92, 219);
+}
