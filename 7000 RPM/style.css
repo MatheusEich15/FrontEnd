@@ -92,5 +92,40 @@ header {
 }
 
 #hero {
-    /* background-image: ; */
+    position: relative;
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: heroSlide 36s infinite;
+}
+
+#overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0,5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes heroSlide {
+    16.5% {
+        background-image: url(./images/benjamin-chambon-9JfVx_qLRk0-unsplash.jpg);
+    }
+    33% {
+        background-image: url(./images/bernardo-costa-6YbI9AxXXmM-unsplash.jpg);
+    }
+    50% {
+        background-image: url(./images/jeff-james-rY8ThTN6WCM-unsplash.jpg);
+    }
+    68% {
+        background-image: url(./images/jonathan-ikemura-rpPEVWAbUrg-unsplash.jpg);
+    }
+    88% {
+        background-image: url(./images/louismoto-C_v822zQuZA-unsplash.jpg);
+    }
+    100% {
+        background-image: url(./images/matheus-eichendorf-hFX9GsI5KW8-unsplash.jpg);
+    }
 }
